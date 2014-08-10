@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         
         # Setter for the matrix
-        set <- function(x) {
+        set <- function(y) {
                 x <<- y
                 inv <<- NULL
         }
